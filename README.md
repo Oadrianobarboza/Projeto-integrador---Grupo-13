@@ -2,11 +2,11 @@
 Desenvolvimento low code em ciência de dados
 
 # Integrantes
-•⁠  ⁠Adriano Barboza Rosa
-•⁠  ⁠Emilly
-•⁠  ⁠Mari
-•⁠  ⁠Pedro Carboni
-•⁠  ⁠Fernandes
+* ⁠Adriano Barboza Rosa
+* ⁠Emilly
+* Mariana
+* Pedro Carboni
+* ⁠G Fernandes
 
 ## Objetivo
 Investigar de forma mais aprofundada como os hábitos digitais cotidianos, como por exemplo a frequência de utilização de redes sociais, o tempo total de exposição às telas e a recorrência de notificações impactam diretamente aspectos como a produtividade, os níveis de estresse e o bem-estar geral de adultos inseridos em contextos que simulam situações reais do mercado de trabalho. A proposta busca compreender possíveis relações entre o comportamento digital e o desempenho em atividades profissionais, considerando fatores que podem contribuir tanto para a melhoria quanto para a queda de rendimento.
