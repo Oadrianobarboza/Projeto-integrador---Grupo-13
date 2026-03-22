@@ -3,10 +3,10 @@ Desenvolvimento low code em ciência de dados
 
 # Integrantes
 * ⁠Adriano Barboza Rosa
-* ⁠Emilly
-* Mariana
-* Pedro Carboni
-* ⁠G Fernandes
+* ⁠Emilly Gouveia Fortunato 
+* Mariana dias
+* Pedro Alvares Leite Carboni
+* ⁠Guilherme Fernandes
 
 ## Objetivo
 Investigar de forma mais aprofundada como os hábitos digitais cotidianos, como por exemplo a frequência de utilização de redes sociais, o tempo total de exposição às telas e a recorrência de notificações impactam diretamente aspectos como a produtividade, os níveis de estresse e o bem-estar geral de adultos inseridos em contextos que simulam situações reais do mercado de trabalho. A proposta busca compreender possíveis relações entre o comportamento digital e o desempenho em atividades profissionais, considerando fatores que podem contribuir tanto para a melhoria quanto para a queda de rendimento.
@@ -19,16 +19,20 @@ Para a realização dessa análise, será utilizada a base de dados pública [So
 - SQLite
 - Streamlit
 
-## Planejamento e Transformações
-* Tarefa 1: Extração e compreensão da base de dados do Kaggle - [Nome do integrante responsável]
+## Planejamento:
+* Tarefa 1: Extração e compreensão da base de dados do Kaggle - **Adriano Barboza Rosa**
   + **O que será feito:** Download da base, leitura inicial, entendimento e documentação dos dados e estrutura do dataset.
-* Tarefa 2: Limpeza e tratamento de dados
+    
+* Tarefa 2: Limpeza e tratamento de dados - ⁠**Emilly Gouveia Fortunato**
   + **O que será feito**: Tratamento de valores ausentes (NaN) nas colunas de 'sono' e 'estresse' via imputação de dados, além da identificação e remoção de valores atípicos (outliers) nas colunas de consumo de mídia, café e número de notificações.
-* ⁠Tarefa 3: Transformação de Dados - [Nome do integrante responsável]
+    
+* ⁠Tarefa 3: Transformação de Dados - **Mariana dias**
   + **O que será feito:** Criação de novas métricas secundárias, como tempo médio por plataforma, índice de uso digital
-* ⁠Tarefa 4: Carga e armazenamento da base tratada em banco de dados - Pedro Carboni
+    
+* ⁠Tarefa 4: Carga e armazenamento da base tratada em banco de dados - **Pedro Alvares Leite Carboni**
   + **O que será feito:** Exportação da base limpa, inserção no banco de dados (SQLite) e estruturação das informações para consumo pelo dashboard.
-* Tarefa 5: Desenvolvimento do Dashboard interativo - [Nome do integrante responsável]
+    
+* Tarefa 5: Desenvolvimento do Dashboard interativo - ⁠**Guilherme Fernandes**
   + **O que será feito:** Desenvolvimento de dashboard utilizando a plataforma de criação de interfaces gráficas Streamlit, no ecossistema Python.
 
 ## Limpeza de dados e transformações:
