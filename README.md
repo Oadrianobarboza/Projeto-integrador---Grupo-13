@@ -13,14 +13,21 @@ Investigar de forma mais aprofundada como os hábitos digitais cotidianos, como 
 
 Para a realização dessa análise, será utilizada a base de dados pública [Social Media vs. Productivity](https://www.kaggle.com/datasets/mahdimashayekhi/social-media-vs-productivity), disponibilizada na plataforma Kaggle, permitindo a exploração de padrões, correlações e tendências relevantes.
 
+## Tecnologias utilizadas
+- Python
+- Pandas
+- SQLite
+- Streamlit
+
 ## Planejamento e Transformações
 * Tarefa 1: Extração e compreensão da base de dados do Kaggle - [Nome do integrante responsável]
+  + **O que será feito:** Download da base, leitura inicial, entendimento e documentação dos dados e estrutura do dataset.
 * Tarefa 2: Limpeza e tratamento de dados
   + **O que será feito**: Tratamento de valores ausentes (NaN) nas colunas de 'sono' e 'estresse' via imputação de dados, além da identificação e remoção de valores atípicos (outliers) nas colunas de consumo de mídia, café e número de notificações.
 * ⁠Tarefa 3: Transformação de Dados - [Nome do integrante responsável]
   + **O que será feito:** Criação de novas métricas secundárias, como tempo médio por plataforma, índice de uso digital
-* ⁠Tarefa 4: Carga e armazenamento da base tratada em banco de dados - [Nome do integrante responsável]
-  + **O que será feito:** Exportação da base limpa, inserção no banco de dados (SQLITE) e estruturação das informações para consumo pelo dashboard.
+* ⁠Tarefa 4: Carga e armazenamento da base tratada em banco de dados - Pedro Carboni
+  + **O que será feito:** Exportação da base limpa, inserção no banco de dados (SQLite) e estruturação das informações para consumo pelo dashboard.
 * Tarefa 5: Desenvolvimento do Dashboard interativo - [Nome do integrante responsável]
   + **O que será feito:** Desenvolvimento de dashboard utilizando a plataforma de criação de interfaces gráficas Streamlit, no ecossistema Python.
 
