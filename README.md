@@ -1,2 +1,46 @@
-# Projeto-integrador---Grupo-13
+# Projeto-integrador - Mídias Sociais vs Produtividade (Grupo 13)
 Desenvolvimento low code em ciência de dados
+
+# Integrantes
+•⁠  ⁠Adriano Barboza Rosa
+•⁠  ⁠Emilly
+•⁠  ⁠Mari
+•⁠  ⁠Pedro Carboni
+•⁠  ⁠Fernandes
+
+## Objetivo
+Investigar de forma mais aprofundada como os hábitos digitais cotidianos, como por exemplo a frequência de utilização de redes sociais, o tempo total de exposição às telas e a recorrência de notificações impactam diretamente aspectos como a produtividade, os níveis de estresse e o bem-estar geral de adultos inseridos em contextos que simulam situações reais do mercado de trabalho. A proposta busca compreender possíveis relações entre o comportamento digital e o desempenho em atividades profissionais, considerando fatores que podem contribuir tanto para a melhoria quanto para a queda de rendimento.
+
+Para a realização dessa análise, será utilizada a base de dados pública [Social Media vs. Productivity](https://www.kaggle.com/datasets/mahdimashayekhi/social-media-vs-productivity), disponibilizada na plataforma Kaggle, permitindo a exploração de padrões, correlações e tendências relevantes.
+
+## Planejamento e Transformações
+* Tarefa 1: Extração e compreensão da base de dados do Kaggle - [Nome do integrante responsável]
+* Tarefa 2: Limpeza e tratamento de dados
+  + O que será feito: Tratamento de valores ausentes (NaN) nas colunas de 'sono' e 'estresse' via imputação de dados, além da identificação e remoção de valores atípicos (outliers) nas colunas de consumo de mídia, café e número de notificações.
+* ⁠Tarefa 3: Transformação de Dados - [Nome do integrante responsável]
+  + O que será feito: Criação de novas métricas secundárias, como tempo médio por plataforma, índice de uso digital
+* ⁠Tarefa 4: Carga e armazenamento da base tratada em banco de dados - [Nome do integrante responsável]
+  + O que será feito: Exportação da base limpa, inserção no banco de dados (SQLITE) e estruturação das informações para consumo pelo dashboard.
+* Tarefa 5: Desenvolvimento do Dashboard interativo - [Nome do integrante responsável]
+  + O que será feito: Desenvolvimento de dashboard utilizando a plataforma de criação de interfaces gráficas Streamlit, no ecossistema Python.
+
+A base de dados requer etapas de limpeza e transformação antes da realização da Análise Exploratória de Dados (EDA), com o objetivo de garantir a qualidade e a consistência das informações.
+
+•⁠  ⁠identificar e tratar possíveis outliers, especialmente em variáveis como tempo de uso de redes sociais e horas de sono, que podem apresentar valores extremos e comprometer as análises.
+•⁠  ⁠definir uma estratégia para o tratamento de valores nulos, podendo-se optar pela remoção de registros incompletos ou pela imputação de valores, como média ou mediana, dependendo da relevância da variável.
+•⁠  ⁠padronização dos dados de data e hora
+Podem ser aplicadas outras etapas complementares, se necessário.
+
+## Dashboard / Visualizações e métricas
+Para compreender melhor os dados e extrair insights relevantes, o dashboard será estruturado a partir de perguntas analíticas e métricas-chave relacionadas ao uso de redes sociais, hábitos diários e saúde mental.
+
+Qual é o ranking das plataformas de redes sociais mais utilizadas?
+Qual é a média diária de uso das redes sociais?
+Qual é a média de horas de sono dos usuários?
+Quanto tempo, em média, os usuários passam em frente à tela antes de dormir?
+Como o nível de estresse varia por faixa etária?
+Qual é a média de dias em que os usuários sentem burnout por mês?
+
+Para representar esses dados, serão utilizadas visualizações como gráficos de barras, gráficos de linha, gráficos de dispersão e cartões de KPI, permitindo tanto análises descritivas quanto a identificação de padrões.
+
+Além disso, serão exploradas possíveis relações entre variáveis, como o impacto do uso de redes sociais sobre o sono, estresse e burnout, a fim de identificar tendências e correlações relevantes.
