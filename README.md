@@ -31,22 +31,23 @@ Para a realização dessa análise, será utilizada a base de dados pública [So
 * Tarefa 5: Desenvolvimento do Dashboard interativo - [Nome do integrante responsável]
   + **O que será feito:** Desenvolvimento de dashboard utilizando a plataforma de criação de interfaces gráficas Streamlit, no ecossistema Python.
 
+## Limpeza de dados e transformações:
+
 A base de dados requer etapas de limpeza e transformação antes da realização da Análise Exploratória de Dados (EDA), com o objetivo de garantir a qualidade e a consistência das informações.
 
-•⁠  ⁠identificar e tratar possíveis outliers, especialmente em variáveis como tempo de uso de redes sociais e horas de sono, que podem apresentar valores extremos e comprometer as análises.
-•⁠  ⁠definir uma estratégia para o tratamento de valores nulos, podendo-se optar pela remoção de registros incompletos ou pela imputação de valores, como média ou mediana, dependendo da relevância da variável.
-•⁠  ⁠padronização dos dados de data e hora
-Podem ser aplicadas outras etapas complementares, se necessário.
+Em relação à limpeza, iremos ⁠identificar e tratar possíveis outliers, especialmente em variáveis como tempo de uso de redes sociais e horas de sono, que podem apresentar valores extremos e comprometer as análises, além de definir uma estratégia para o tratamento de valores nulos, podendo-se optar pela remoção de registros incompletos ou pela imputação de valores, como média ou mediana, dependendo da relevância da variável. Por fim, iremos garantir a padronização dos dados de data e hora.
+
+Sobre a transformação dos dados, iremos criar métricas secundárias, como por exemplo tempo médio por plataforma e agrupamentos por faixa etária.
 
 ## Dashboard / Visualizações e métricas
-Para compreender melhor os dados e extrair insights relevantes, o dashboard será estruturado a partir de perguntas analíticas e métricas-chave relacionadas ao uso de redes sociais, hábitos diários e saúde mental.
+Para compreender melhor os dados e extrair insights relevantes, o dashboard será estruturado a partir de perguntas analíticas e métricas-chave relacionadas ao uso de redes sociais, hábitos diários e saúde mental, a partir das seguintes questões:
 
-Qual é o ranking das plataformas de redes sociais mais utilizadas?
-Qual é a média diária de uso das redes sociais?
-Qual é a média de horas de sono dos usuários?
-Quanto tempo, em média, os usuários passam em frente à tela antes de dormir?
-Como o nível de estresse varia por faixa etária?
-Qual é a média de dias em que os usuários sentem burnout por mês?
+- Qual é o ranking das plataformas de redes sociais mais utilizadas?
+- Qual é a média diária de uso das redes sociais?
+- Qual é a média de horas de sono dos usuários?
+- Quanto tempo, em média, os usuários passam em frente à tela antes de dormir?
+- Como o nível de estresse varia por faixa etária?
+- Qual é a média de dias em que os usuários sentem burnout por mês?
 
 Para representar esses dados, serão utilizadas visualizações como gráficos de barras, gráficos de linha, gráficos de dispersão e cartões de KPI, permitindo tanto análises descritivas quanto a identificação de padrões.
 
