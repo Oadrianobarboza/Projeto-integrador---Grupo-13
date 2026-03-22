@@ -8,6 +8,13 @@ Desenvolvimento low code em ciência de dados
 * Pedro Alvares Leite Carboni
 * ⁠Guilherme Fernandes
 
+# Estrutura de Pastas
+O projeto seguirá a seguinte organização de diretórios:
+
+/data: Armazenará a base de dados original (base_original.csv) e a base após o tratamento (base_tratada.csv).
+/src: Conterá os scripts Python focados no processo de ETL (etl.py).
+/app: Receberá o código-fonte responsável pela aplicação interativa e visualizações (dashboard.py).
+
 ## Objetivo
 Investigar de forma mais aprofundada como os hábitos digitais cotidianos, como por exemplo a frequência de utilização de redes sociais, o tempo total de exposição às telas e a recorrência de notificações impactam diretamente aspectos como a produtividade, os níveis de estresse e o bem-estar geral de adultos inseridos em contextos que simulam situações reais do mercado de trabalho. A proposta busca compreender possíveis relações entre o comportamento digital e o desempenho em atividades profissionais, considerando fatores que podem contribuir tanto para a melhoria quanto para a queda de rendimento.
 
