@@ -16,13 +16,13 @@ Para a realização dessa análise, será utilizada a base de dados pública [So
 ## Planejamento e Transformações
 * Tarefa 1: Extração e compreensão da base de dados do Kaggle - [Nome do integrante responsável]
 * Tarefa 2: Limpeza e tratamento de dados
-  + O que será feito: Tratamento de valores ausentes (NaN) nas colunas de 'sono' e 'estresse' via imputação de dados, além da identificação e remoção de valores atípicos (outliers) nas colunas de consumo de mídia, café e número de notificações.
+  + *O que será feito*: Tratamento de valores ausentes (NaN) nas colunas de 'sono' e 'estresse' via imputação de dados, além da identificação e remoção de valores atípicos (outliers) nas colunas de consumo de mídia, café e número de notificações.
 * ⁠Tarefa 3: Transformação de Dados - [Nome do integrante responsável]
-  + O que será feito: Criação de novas métricas secundárias, como tempo médio por plataforma, índice de uso digital
+  + *O que será feito:* Criação de novas métricas secundárias, como tempo médio por plataforma, índice de uso digital
 * ⁠Tarefa 4: Carga e armazenamento da base tratada em banco de dados - [Nome do integrante responsável]
-  + O que será feito: Exportação da base limpa, inserção no banco de dados (SQLITE) e estruturação das informações para consumo pelo dashboard.
+  + *O que será feito:* Exportação da base limpa, inserção no banco de dados (SQLITE) e estruturação das informações para consumo pelo dashboard.
 * Tarefa 5: Desenvolvimento do Dashboard interativo - [Nome do integrante responsável]
-  + O que será feito: Desenvolvimento de dashboard utilizando a plataforma de criação de interfaces gráficas Streamlit, no ecossistema Python.
+  + *O que será feito:* Desenvolvimento de dashboard utilizando a plataforma de criação de interfaces gráficas Streamlit, no ecossistema Python.
 
 A base de dados requer etapas de limpeza e transformação antes da realização da Análise Exploratória de Dados (EDA), com o objetivo de garantir a qualidade e a consistência das informações.
 
